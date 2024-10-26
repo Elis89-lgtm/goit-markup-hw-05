@@ -684,17 +684,18 @@ border: 1px solid rgba(46, 47, 66, 0.4);
   border: none;
   fill: #f4f4fd;
 }
-.hero-btn {
+.modal-btn {
   display: block;
   align-items: center;
   justify-content: center;
-  min-width: 169px;
+  min-width: 105px;
   margin-left: auto;
   margin-right: auto;
-  margin-top: 48px;
+  margin-top: 24px;
+  margin-bottom: 24px;
   border-radius: 4px;
-  padding: 24px 120px;
-  height: 56px;
+  padding: 16px 32px;
+  
 }
 
 .modal-btn {
@@ -718,5 +719,6 @@ border: 1px solid rgba(46, 47, 66, 0.4);
 
 .modal-btn:hover,
 .modal-btn:focus {
+ 
   background-color: #404bbf;
 }
