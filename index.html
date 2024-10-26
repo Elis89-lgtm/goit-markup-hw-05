@@ -19,7 +19,7 @@ u<!DOCTYPE html>
     />
     <link rel="stylesheet" href="./css/styles.css" />
   </head>
-  <body>
+  
     <header class="page-header">
       <div class="container header-container">
         <nav class="header-nav">
@@ -471,7 +471,7 @@ u<!DOCTYPE html>
       </div>
     </footer>
     <div class="backdrop is open"></div>
-    <div class="modal"></div>
+    <div class="modal">
     <button type="button" class="modal-open">
       <svg class="modal-close-button" width="8" height="8">
         <use href="./images/icons-modal.svg#icon-close-black"></use>
@@ -485,7 +485,7 @@ u<!DOCTYPE html>
           class="modal-label"
           >Name</label
         >
-        <div class="wrapper">
+        <div class="input-wrapper">
           <input
             type="text"
             name="user-name"
@@ -506,7 +506,7 @@ u<!DOCTYPE html>
             class="modal-label"
             >Phone</label
           >
-          <div class="wrapper">
+          <div class="input-wrapper">
             <input
               type="phone"
               name="user-phone"
@@ -527,7 +527,7 @@ u<!DOCTYPE html>
             class="modal-label"
             >email</label
           >
-          <div class="wrapper">
+          <div class="input-wrapper">
             <input
               type="email"
               name="user-email"
@@ -576,8 +576,12 @@ u<!DOCTYPE html>
                   <use href="./images/icons-modal.svg#icon-Checkbox"></use>
                 </svg>
               </span>
-              I accept the terms and conditions of the Privacy Policy</label
+              I accept the terms and conditions of the Privacy Policy </label
             >
           </div>
+          <button type="button" class="modal-btn">Send</button> 
+          </form>
+          </div>
+        </div>
   </body>
 </html>
