@@ -523,6 +523,59 @@ line-height: 1.5;
 letter-spacing: 0.02em;
 color: #fff;
 }
+
+.footer-form {
+  display: flex;
+}
+.footer-part {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-left: auto;
+  width: 453px;
+  height: 80px;
+}
+
+
+.footer-input {
+  border: 1px solid #fff;
+  border-radius: 4px;
+  max-width: 264px;
+  max-height: 40px;
+  background-color: transparent;
+  margin-right: 24px;
+}
+.footer-btn {
+  font-weight: 500;
+  font-size: 16px;
+  color: #fff;
+  line-height: 1.5;
+letter-spacing: 0.04em;
+text-align: center;
+  border-radius: 4px;
+  width: 165px;
+  height: 40px;
+  background-color: #4d5ae5;
+  border: none;
+  display: flex;
+align-items: center;
+justify-content: center;
+flex-direction: row;
+ gap: 16px;
+}
+.footer-btn:hover {
+  color: #404bbf;
+}
+
+.footer-btn:hover svg {
+  stroke: #404bbf;
+}
+
+.header-soc-icon {
+  flex-shrink: 0;
+}
+
+
 .backdrop {
   position: fixed;
   top: 0;
