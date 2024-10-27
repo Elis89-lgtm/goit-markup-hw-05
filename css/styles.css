@@ -525,12 +525,11 @@ color: #fff;
 }
 
 .footer-form {
-  display: flex;
+display: flex;
+  
   
 }
 .footer-part {
- 
-  
   margin-left: auto;
   width: 453px;
   height: 80px;
