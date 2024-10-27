@@ -654,7 +654,7 @@ flex-direction: row;
 .modal-open:hover .modal-close-button,
 .modal-open:focus .modal-close-button {
   border-radius: 100%;
-  fill; #404bbf; 
+  fill: #404bbf; 
 }
 
 .modal-feedback {
