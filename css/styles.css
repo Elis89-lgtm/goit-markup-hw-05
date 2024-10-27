@@ -526,6 +526,7 @@ color: #fff;
 
 .footer-form {
   display: flex;
+  
 }
 .footer-part {
   display: flex;
@@ -535,13 +536,23 @@ color: #fff;
   width: 453px;
   height: 80px;
 }
-
+.footer-text {
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+  color: #fff;
+  margin-bottom: 16px;
+}
 
 .footer-input {
+ 
   border: 1px solid #fff;
   border-radius: 4px;
+  box-shadow: 0 4px 4px 0 rgba(0, 0, 0, 0.15);
   max-width: 264px;
   max-height: 40px;
+  padding-left: 16px;
   background-color: transparent;
   margin-right: 24px;
 }
@@ -555,6 +566,7 @@ text-align: center;
   border-radius: 4px;
   width: 165px;
   height: 40px;
+  padding: 8px 24px;
   background-color: #4d5ae5;
   border: none;
   display: flex;
@@ -562,13 +574,21 @@ align-items: center;
 justify-content: center;
 flex-direction: row;
  gap: 16px;
+ transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
+
 .footer-btn:hover {
   color: #404bbf;
+  transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1); 
 }
 
 .footer-btn:hover svg {
-  stroke: #404bbf;
+  fill: #404bbf;
+}
+.footer-btn:hover > svg,
+.footer-btn:focus > svg {
+  fill: #404bbf;
+  transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);  
 }
 
 .header-soc-icon {
