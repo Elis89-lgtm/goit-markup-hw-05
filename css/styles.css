@@ -526,6 +526,7 @@ color: #fff;
 
 .footer-form {
 display: flex;
+gap 24px;
   
   
 }
@@ -545,10 +546,13 @@ display: flex;
 }
 
 .footer-input {
- 
-  border: 1px solid #fff;
+  font-size: 12px;
+  line-height: 2; 
+  letter-spacing: 0.04em; 
+  border: 1px solid #ffffff;
   border-radius: 4px;
-  box-shadow: 0 4px 4px 0 rgba(0, 0, 0, 0.15);
+  box-shadow: 0px 4px 4px  rgba(0, 0, 0, 0.15);
+  color: #ffffff;
   max-width: 264px;
   max-height: 40px;
   padding-left: 16px;
@@ -556,9 +560,10 @@ display: flex;
   margin-right: 24px;
 }
 .footer-btn {
+  font-family: "Roboto", sans-serif;
   font-weight: 500;
   font-size: 16px;
-  color: #fff;
+  color:  #ffffff;
   line-height: 1.5;
 letter-spacing: 0.04em;
 text-align: center;
@@ -572,12 +577,17 @@ text-align: center;
 align-items: center;
 justify-content: center;
 flex-direction: row;
- gap: 16px;
- transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
+cursor: pointer;
+
+ transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1), border 250ms cubic-bezier(0.4, 0, 0.2, 1);
+}
+.footer-icon-send {
+  margin-left: 16px; 
 }
 
 .footer-btn:hover {
   color: #404bbf;
+  border: none; 
   transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1); 
 }
 
@@ -586,8 +596,8 @@ flex-direction: row;
 }
 .footer-btn:hover > svg,
 .footer-btn:focus > svg {
-  fill: #404bbf;
-  transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);  
+  border: none;
+  background-color: #404bbf;
 }
 
 .header-soc-icon {
@@ -673,11 +683,13 @@ margin-bottom: 16px;
 }
 .input-wrapper {
   position: relative;
+  
 }
- .modal-form {
+.modal-form {
   margin-left: 24px;
   margin-right: 24px;
  }
+
 .modal-input {
   width: 360px;
   border: 1px solid rgba(46, 47, 66, 0.4);
@@ -685,7 +697,7 @@ margin-bottom: 16px;
   height: 40px;
   background-color: transparent;
   padding-left: 38px;
- 
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15); 
   outline: transparent;
   transition: border-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
@@ -714,7 +726,9 @@ border-color: #4d5ae5;
 
 button.modal-open:hover > svg,
 button.modal-open:focus > svg {
-  fill: #4d5ae5;
+  fill: #ffffff;
+  border: none;
+  background-color: #404bbf;
 }
 .modal-label {
   font-size: 14px;
@@ -774,7 +788,7 @@ gap: 8px;
   fill: #f4f4fd;
 }
 .modal-btn {
-  display: block;
+  display: flex;
   align-items: center;
   justify-content: center;
   min-width: 169px;
@@ -798,16 +812,16 @@ gap: 8px;
 }
 
 .modal-btn {
+  cursor: pointer;
   background-color: #4d5ae5;
-  transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1); 
+  transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1), border 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
-.modal-btn {
-  cursor: pointer;
-}
+
 
 .modal-btn:hover,
 .modal-btn:focus {
- 
+  fill: #ffffff;
+  border: none;
   background-color: #404bbf;
 }
