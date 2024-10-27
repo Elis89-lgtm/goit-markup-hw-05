@@ -529,9 +529,8 @@ color: #fff;
   
 }
 .footer-part {
-  display: flex;
-  align-items: center;
-  justify-content: space-between;
+ 
+  
   margin-left: auto;
   width: 453px;
   height: 80px;
@@ -543,6 +542,7 @@ color: #fff;
   letter-spacing: 0.02em;
   color: #fff;
   margin-bottom: 16px;
+  
 }
 
 .footer-input {
