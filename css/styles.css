@@ -690,12 +690,11 @@ margin-bottom: 16px;
 }
 
 .modal-field {
+  margin-bottom: 8px; 
 }
 .input-wrapper {
   position: relative;
-  margin-bottom: 8px; 
-  
-  
+   
 }
 .modal-form {
   margin-left: 24px;
